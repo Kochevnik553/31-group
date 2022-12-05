@@ -1,0 +1,13 @@
+ID: 01
+Title: new BR
+Environment: Windows 11
+Precondition: url
+Severity: critical
+Priority: medium
+STR: 1,2,3
+AR: 
+ER:
+Attachments:
+--
+	Author: Bogdan Kozlov
+	Date: XX.XX.XXXX
