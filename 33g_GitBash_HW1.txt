@@ -1,0 +1,95 @@
+Linux terminal (GitBash) commands:
+1) Посмотреть где я
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1
+$ pwd
+/d/QAstudy/31_Group/GIT_BASH/Terminal_1
+
+2) Создать папку
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1
+$ mkdir 33g
+
+3) Зайти в папку
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1
+$ cd 33g
+
+4) Создать 3 папки
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ mkdir c1 c2 c3
+
+5) Зайти в любоую папку
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ cd c1
+
+6) Создать 5 файлов (3 txt, 2 json)
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g/c1
+$ touch 1.txt 2.txt 3.txt 1.json 2.json
+
+7) Создать 3 папки
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ mkdir k1 k2 k3
+
+8. Вывести список содержимого папки
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ ls -la c1
+
+9) + Открыть любой txt файл
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ cd c1 && vim 1.json
+
+10) + написать туда что-нибудь, любой текст.ca
+{
+"Name":"Bogdan",
+"Second_Name": "Kozlov",
+"Age":30
+}
+
+11) + сохранить и выйти.
+'Esc'→':wq'→'Enter'
+
+12) Выйти из папки на уровень выше
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g/c&&1
+$ cd ..
+
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g/c1
+$ mv -v c1/3.txt c2 && mv -v c1/2.txt c2
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ cp -v c1/1.json c3/1_copy.json && cp -v c1/2.json c3/2_copy.json
+
+15) Найти файл по имени
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ find -name 1_copy.json
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ tail -f G1.txt
+
+17) вывести несколько первых строк из текстового файла
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ head -2 G1.txt
+
+18) вывести несколько последних строк из текстового файла
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ tail -3 G1.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ less G1.txt
+
+20) вывести дату и время
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ date +'%d.%m.%g %R'
+12.02.23 22:49
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GIT_BASH/Terminal_1/33g
+$ curl http://162.55.220.72:5005/terminal-hw-request
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
