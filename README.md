@@ -1,1 +1,1 @@
-# group31
+All homeworks from Vadim Ksendzov courses
