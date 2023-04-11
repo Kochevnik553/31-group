@@ -1,0 +1,165 @@
+1) Посмотреть где я
+Богдан@MACHINE MINGW64 ~
+$ pwd
+/c/Users/Богдан
+
+2) Создать папку
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ mkdir T1
+
+3) Зайти в папку
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ cd T1
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T1
+$
+
+4) Создать 3 папки
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ mkdir T2 T3 T4
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ ls
+ T1/   T2/   T3/   T4/  'ДЗ 1.txt'
+
+5) Зайти в любоую папку
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ cd T4
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ pwd
+/D/QA study/Урок 1 - GitBash/T4
+
+6) Создать 5 файлов (3 txt, 2 json)
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ touch F1.txt F2.txt
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ touch L1.json L2.json
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ touch F3.txt
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ ls -a
+./  ../  F1.txt  F2.txt  F3.txt  L1.json  L2.json
+
+7) Создать 3 папки
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T3
+$ mkdir T3_1 T3_2 T3_3
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T3
+$ ls -a
+./  ../  T3_1/  T3_2/  T3_3/
+
+8. Вывести список содержимого папки
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ ls -a
+./  ../  F1.txt  F2.txt  F3.txt  L1.json  L2.json
+
+9) + Открыть любой txt файл
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ vim F1.txt
+
+10) + написать туда что-нибудь, любой текст.
+press "i"
+
+Hello, dear Mentor! ;)
+I'm trying speak loud&clear, can you hear me?
+check, check ... 123
+
+11) + сохранить и выйти.
+:wq press "Enter"
+
+12) Выйти из папки на уровень выше
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T4
+$ cd ..
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ pwd
+/D/QA study/Урок 1 - GitBash
+
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ mv T4/L1.json T3/L1.json
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ mv T4/L2.json T3/L2.json
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T3
+$ ls -a
+./  ../  L1.json  L2.json  T3_1/  T3_2/  T3_3/
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ cp T3/L1.json T1/L1_copy.json
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ cp T3/L2.json T1/L2_copy.json
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ cd T1
+
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash/T1
+$ ls -a
+./  ../  L1_copy.json  L2_copy.json
+
+15) Найти файл по имени
+Богдан@MACHINE MINGW64 /D/QA study/Урок 1 - GitBash
+$ find -name "L1_copy.json"
+./T1/L1_copy.json
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+Богдан@MACHINE MINGW64 /d/QA study/Урок 1 - GitBash/T2
+$ tail -F text.txt | grep '11'
+1*11=11
+
+
+17) вывести несколько первых строк из текстового файла
+Богдан@MACHINE MINGW64 /d/QA study/Урок 1 - GitBash/T2
+$ head -n3 text.txt
+Таблица умножения:
+1*0=0
+1*2=2
+
+18) вывести несколько последних строк из текстового файла
+Богдан@MACHINE MINGW64 /d/QA study/Урок 1 - GitBash/T2
+$ tail -n3 text.txt
+1*7=7
+1*8=8
+1*9=9
+
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+Богдан@MACHINE MINGW64 /d/QA study/Урок 1 - GitBash/T2
+$ less usragrt.txt
+
+20) вывести дату и время
+Богдан@MACHINE MINGW64 /
+$ date +"%d.%m.%Y %T"
+16.04.2022 00:46:29
+
+--
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+Богдан@MACHINE MINGW64 /
+$ curl http://162.55.220.72:5005/terminal-hw-request
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   237  100   237    0     0   2379      0 --:--:-- --:--:-- --:--:--  2393{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
+
+
+
+Богдан@MACHINE MINGW64 /
+$ curl "http://162.55.220.72:5005/get_method?name=(Bogdan)&age=(29)"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    20  100    20    0     0    183      0 --:--:-- --:--:-- --:--:--   185["(Bogdan)","(29)"]
+
+
+Богдан@MACHINE MINGW64 /
+$ curl -d "name=Bogdan&age=29" http://162.55.220.72:5005/get_method
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    36  100    18  100    18    194    194 --:--:-- --:--:-- --:--:--   395"Natalia MOLODEC"
