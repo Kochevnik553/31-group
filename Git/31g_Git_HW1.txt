@@ -1,0 +1,233 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31
+$ git clone https://github.com/Kochevnik553/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31
+$ cd JSON
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ touch new_31.json
+
+ 7. Добавить файл под гит.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git add new_31.json
+
+ 8. Закоммитить файл.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git commit -am "add new_31.json"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ vim new_31.json
+
+11. Отправить изменения на внешний репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git add new_31.json
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git commit -am "modify new_31.json"
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git push
+
+ 12. Создать файл preferences.json
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ touch preferences_31.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+ Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ vim preferences_31.json
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ vim skils_31.json
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git add .
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git commit -am "new preferences_31 & skils_31"
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/JSON (main)
+$ git pull
+-----------------------------------------------------------------
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31
+$ git clone https://github.com/Kochevnik553/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31
+$ cd XML
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ touch new_31.xml
+
+ 24. Добавить файл под гит.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git add new_31.xml
+
+ 25. Закоммитить файл.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git commit -am "add new_31.xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ vim new_31.xml
+
+28. Отправить изменения на внешний репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git add new_31.xml
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git commit -am "add modifed new_31.xml"
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git push
+
+ 29. Создать файл preferences.xml
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ vim preferences_31.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ <?xml version="1.1" encoding="UTF-8"?>
+<preferences>
+    <Movie>They Fought for Their Country</Movie>
+        <TVshow>The Expanse and The Terminal list</TVshow>
+        <Food>Buckweat with meat</Food>
+        <Season>Summer and Winter</Season>
+        <Country>Georgia and Spain</Country>
+</preferences>
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ vim skils_31.xml
+
+ 32. Сделать коммит в одну строку.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git add .
+
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git commit -am "add preferences_31.xml & skils_31.xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+Богдан@MACHINE MINGW64 /d/QAstudy/31_Group/repo31/XML (main)
+$ git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+----------------------------------------------------------------------------------------------
+ TXT
+ 1. Создать внешний репозиторий c названием TXT.
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB
+$ git clone git@github.com:Kochevnik553/31g_TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ touch new.txt
+
+ 4. Добавить файл под гит.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git add new.txt
+
+ 5. Закоммитить файл.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git commit -m "added new.txt"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ vim new.txt
+ФИО: Козлов Богдан Геннадьевич;
+Возраст: 30;
+Домашние животные: нет;
+Жлаемая зарплата: 2000 - 3000+ USD.
+
+ 8. Отправить изменения на внешний репозиторий.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git commit -am "update new.txt"
+
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git push
+
+ 9. Создать файл preferences.txt
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+Фильм: Они сражались за родину;
+Сериал: Острые козырьки;
+Еда: Курица с картошкой;
+Время года: лето, осень;
+Страна: Грузия, Италия.
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ vim skils.txt
+Skil1: GitBash;
+Skil2: Git;
+Skil2: JavaScript;
+Skil3: Hub;
+Skil4: Client-Server architecture;
+Skil5: DevTools;
+Skil6: Postman;
+Skil7: Jira.
+
+ 12. Сделать коммит в одну строку.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git commit -a -m "added 2 files: skils&preferences"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+https://github.com/Kochevnik553/31g_TXT/blob/main/bug_report.txt
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+BUG_REPORT STRUCTURE
+--------------------
+1. ID 
+2. Title
+3. Environment
+4. Precondition
+5. STR
+6. AR
+7. ER
+8. Severity
+9. Priority
+10. Attachments
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+Koche@Bogdan MINGW64 /d/QAstudy/31_Group/GITHUB/31g_TXT (main)
+$ git pull
+
