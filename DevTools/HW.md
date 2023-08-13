@@ -1,5 +1,5 @@
 ## Chrome_DevTools
-## [Скринкаст домашнего задания](https://drive.google.com/file/d/1I1dsUR4kYnqHV5egSubvcnyBy0L7QKmq/view?usp=sharing)***
+## [Скринкаст домашнего задания](https://drive.google.com/file/d/1I1dsUR4kYnqHV5egSubvcnyBy0L7QKmq/view?usp=sharing"Результат")***
 ## Tasks
 Сделать скринкаст выполнения задания:
 1. Открыть Chrome DevTools
